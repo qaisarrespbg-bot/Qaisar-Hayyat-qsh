@@ -179,3 +179,12 @@ a {
     padding-top: 4rem;
   }
 }
+.profile-img {
+    width: 120px;          /* Photo ki width choti karne ke liye */
+    height: 120px;         /* Photo ki height choti karne ke liye */
+    border-radius: 50%;    /* Perfect gol (circle) shape banane ke liye */
+    object-fit: cover;     /* Photo ko stretch hone se bachane ke liye */
+    border: 3px solid #ffffff; /* White border ke liye */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Halqi shadow ke liye */
+    margin-bottom: 15px;
+}
