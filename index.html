@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qaisar Hayyat | Academic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#hero" class="brand">Qaisar Hayyat</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#innovations">Agri Innovations</a>
+          <a href="#research">Research &amp; Publications</a>
+          <a href="#fellowships">Fellowships &amp; Grants</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <p class="eyebrow">Academic Portfolio</p>
+          <h1>Qaisar Hayyat</h1>
+          <p class="subtitle">M.Sc. (Hons.) Plant Breeding &amp; Genetics</p>
+          <p class="hero-text">
+            Focused on quantitative genetics, molecular breeding, and bioinformatics to support resilient,
+            high-performing crop development.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            Qaisar Hayyat is an emerging researcher in Plant Breeding &amp; Genetics with an academic background
+            from the University of the Punjab. His work combines classical breeding and modern computational
+            biology to improve crop performance and sustainability.
+          </p>
+        </div>
+      </section>
+
+      <section id="innovations" class="section alt-bg">
+        <div class="container">
+          <h2>Agricultural Innovations &amp; Core Skills</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>In-Silico Genome-Wide Analysis</h3>
+              <p>Applying computational pipelines to study gene families, structures, and functional patterns.</p>
+            </article>
+            <article class="card">
+              <h3>Molecular Breeding &amp; Hybrid Seeds</h3>
+              <p>Supporting marker-assisted selection and practical breeding workflows for hybrid seed development.</p>
+            </article>
+            <article class="card">
+              <h3>Biometric / GGE Biplot Data Analysis</h3>
+              <p>Using biometric statistics and GGE biplot methods to interpret multi-environment trial data.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="container">
+          <h2>Research &amp; Publications</h2>
+          <ul class="publication-list">
+            <li>Genome-wide evaluation of the <strong>YABBY</strong> gene family in <em>Theobroma cacao</em>.</li>
+            <li>Comprehensive analysis of <strong>PR1</strong> genes in <em>Pisum sativum</em>.</li>
+            <li>Assessment of morphological traits and yield-related characteristics in wheat genotypes.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="fellowships" class="section alt-bg">
+        <div class="container">
+          <h2>Fellowships &amp; Programs</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Chief Minister Internship Program</h3>
+              <p>Government of Punjab initiative focused on practical agricultural development experience.</p>
+            </article>
+            <article class="card">
+              <h3>Plant Breeding Internship</h3>
+              <p>Four Brothers Group placement with exposure to crop improvement and hybrid seed operations.</p>
+            </article>
+            <article class="card">
+              <h3>Molecular Techniques Training</h3>
+              <p>Hands-on training at NIAB in laboratory techniques supporting modern genetic research.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>
+            Email:
+            <a href="mailto:qaisarhayyat2@gmail.com">qaisarhayyat2@gmail.com</a>
+          </p>
+          <p>Locations: Lahore / Okara, Pakistan</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+
+      menuToggle.addEventListener('click', () => {
+        const isOpen = navLinks.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', String(isOpen));
+      });
+    </script>
+  </body>
+</html>
