@@ -1,127 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Qaisar Hayyat | Academic Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a href="#hero" class="brand">Qaisar Hayyat</a>
-        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-        <nav class="nav-links" id="nav-links">
-          <a href="#about">About</a>
-          <a href="#innovations">Agri Innovations</a>
-          <a href="#research">Research &amp; Publications</a>
-          <a href="#fellowships">Fellowships &amp; Grants</a>
-          <a href="#contact">Contact</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qaisar Hayyat | Academic, Agritech & Scholarship Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Qaisar Hayyat</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#scholarships">Scholarships & Grants</a></li>
+                <li><a href="#innovations">Agri Innovations</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-      </div>
     </header>
 
-    <main>
-      <section id="hero" class="hero">
-        <div class="container">
-          <p class="eyebrow">Academic Portfolio</p>
-          <h1>Qaisar Hayyat</h1>
-          <p class="subtitle">M.Sc. (Hons.) Plant Breeding &amp; Genetics</p>
-          <p class="hero-text">
-            Focused on quantitative genetics, molecular breeding, and bioinformatics to support resilient,
-            high-performing crop development.
-          </p>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="qa.jpeg" alt="Qaisar Hayyat" class="profile-img">
+            <h1>Qaisar Hayyat</h1>
+            <p>M.Sc. (Hons.) Plant Breeding & Genetics | Bioinformatics & Agricultural Innovation</p>
+            <a href="#scholarships" class="btn">Explore Scholarships</a>
         </div>
-      </section>
+    </section>
 
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            Qaisar Hayyat is an emerging researcher in Plant Breeding &amp; Genetics with an academic background
-            from the University of the Punjab. His work combines classical breeding and modern computational
-            biology to improve crop performance and sustainability.
-          </p>
+    <div class="ad-banner container">
+        <div class="ad-box">
+            <p class="ad-label">Advertisement / Sponsored</p>
         </div>
-      </section>
+    </div>
 
-      <section id="innovations" class="section alt-bg">
-        <div class="container">
-          <h2>Agricultural Innovations &amp; Core Skills</h2>
-          <div class="card-grid">
-            <article class="card">
-              <h3>In-Silico Genome-Wide Analysis</h3>
-              <p>Applying computational pipelines to study gene families, structures, and functional patterns.</p>
-            </article>
-            <article class="card">
-              <h3>Molecular Breeding &amp; Hybrid Seeds</h3>
-              <p>Supporting marker-assisted selection and practical breeding workflows for hybrid seed development.</p>
-            </article>
-            <article class="card">
-              <h3>Biometric / GGE Biplot Data Analysis</h3>
-              <p>Using biometric statistics and GGE biplot methods to interpret multi-environment trial data.</p>
-            </article>
-          </div>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Research-focused plant breeding graduate with training in molecular techniques, biometric analysis, genome-wide association studies, and field breeding trials. Passionate about agricultural advancements, bioinformatics, and guiding students toward international research scholarships.</p>
+    </section>
+
+    <section id="gallery" class="container bg-light">
+        <h2>Department & Research Gallery</h2>
+        <div class="grid">
+            <div class="card gallery-card">
+                <img src="dept.jpg" alt="Department of PBG">
+                <h3>Faculty of Agricultural Sciences</h3>
+                <p>University of the Punjab, Lahore</p>
+            </div>
+            <div class="card gallery-card">
+                <img src="lab.jpg" alt="Lab Research">
+                <h3>Molecular & Biometric Lab</h3>
+                <p>In-Silico Genome Wide Analysis & Marker Trials</p>
+            </div>
+            <div class="card gallery-card">
+                <img src="field.jpg" alt="Field Trials">
+                <h3>Field Breeding Trials</h3>
+                <p>Hybrid seed development and evaluation</p>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="research" class="section">
-        <div class="container">
-          <h2>Research &amp; Publications</h2>
-          <ul class="publication-list">
-            <li>Genome-wide evaluation of the <strong>YABBY</strong> gene family in <em>Theobroma cacao</em>.</li>
-            <li>Comprehensive analysis of <strong>PR1</strong> genes in <em>Pisum sativum</em>.</li>
-            <li>Assessment of morphological traits and yield-related characteristics in wheat genotypes.</li>
-          </ul>
+    <section id="scholarships" class="container">
+        <h2>Latest Scholarships & Fellowships</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="badge">Fully Funded</span>
+                <h3>Global Agriculture Fellowships 2026</h3>
+                <p>Opportunities for M.Sc. & Ph.D. students in Plant Biotechnology, Genomics, and Sustainable Farming.</p>
+                <a href="#contact" class="btn-small">Learn More</a>
+            </div>
+            <div class="card">
+                <span class="badge">Research Grant</span>
+                <h3>Chief Minister Internship & Research Grants</h3>
+                <p>Funding programs for rural development, environmental sustainability, and agricultural research.</p>
+                <a href="#contact" class="btn-small">Learn More</a>
+            </div>
+            <div class="card">
+                <span class="badge">International</span>
+                <h3>Bioinformatics & Plant Breeding Scholarships</h3>
+                <p>Fully funded masters and doctoral positions across European and Asian research institutions.</p>
+                <a href="#contact" class="btn-small">Learn More</a>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="fellowships" class="section alt-bg">
-        <div class="container">
-          <h2>Fellowships &amp; Programs</h2>
-          <div class="card-grid">
-            <article class="card">
-              <h3>Chief Minister Internship Program</h3>
-              <p>Government of Punjab initiative focused on practical agricultural development experience.</p>
-            </article>
-            <article class="card">
-              <h3>Plant Breeding Internship</h3>
-              <p>Four Brothers Group placement with exposure to crop improvement and hybrid seed operations.</p>
-            </article>
-            <article class="card">
-              <h3>Molecular Techniques Training</h3>
-              <p>Hands-on training at NIAB in laboratory techniques supporting modern genetic research.</p>
-            </article>
-          </div>
+    <section id="innovations" class="container bg-light">
+        <h2>Agri Innovations & Expertise</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-dna card-icon"></i>
+                <h3>In-Silico Genome Analysis</h3>
+                <p>Data mining and functional characterization of gene families (YABBY, PR1) in plants.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-seedling card-icon"></i>
+                <h3>Molecular Breeding</h3>
+                <p>PCR, SSR/RAPD markers, and high-yield crop improvement trials.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-chart-line card-icon"></i>
+                <h3>Biometric Modeling</h3>
+                <p>GGE biplot statistical evaluation for crop phenotype and environment interactions.</p>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="contact" class="section">
-        <div class="container">
-          <h2>Contact</h2>
-          <p>
-            Email:
-            <a href="mailto:qaisarhayyat2@gmail.com">qaisarhayyat2@gmail.com</a>
-          </p>
-          <p>Locations: Lahore / Okara, Pakistan</p>
+    <section id="research" class="container">
+        <h2>Publications & Research Output</h2>
+        <ul class="pub-list">
+            <li>
+                <strong>Genome-Wide Evaluation of the YABBY Transcription Factor Gene Family in Theobroma cacao and Comparative Analysis with Arabidopsis thaliana</strong> (2026)
+                <br><em>Bulletin of Biological and Allied Sciences Research</em>
+            </li>
+            <li>
+                <strong>Genome-Wide Analysis of Pathogenesis-Related Protein 1 (PR1) Genes Reveals Structural and Expression Diversity in Pisum sativum</strong> (2026)
+            </li>
+            <li>
+                <strong>Heterosis, Heterobeltiosis, and Heritability Studies for Morphological Traits of Wheat Seedlings</strong> (2025)
+                <br><em>Journal of Life and Social Sciences</em>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container bg-light">
+        <h2>Contact & Inquiries</h2>
+        <p>For scholarship assistance, research collaboration, or commercial inquiries, contact me below:</p>
+        <div class="contact-details">
+            <p><i class="fas fa-envelope"></i> qaisarhayyat2@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Lahore / Okara, Pakistan</p>
         </div>
-      </section>
-    </main>
+    </section>
 
-    <script>
-      const menuToggle = document.querySelector('.menu-toggle');
-      const navLinks = document.querySelector('.nav-links');
+    <footer>
+        <p>&copy; 2026 Qaisar Hayyat. All rights reserved.</p>
+    </footer>
 
-      menuToggle.addEventListener('click', () => {
-        const isOpen = navLinks.classList.toggle('open');
-        menuToggle.setAttribute('aria-expanded', String(isOpen));
-      });
-    </script>
-  </body>
+</body>
 </html>
